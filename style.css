@@ -46,3 +46,59 @@ nav a
     color: white;
     text-decoration: none;
 }
+
+.canvas
+{
+    height: 400px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 2px solid red; */
+}
+.canvas-content
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 200px;
+    width: 500px;
+    /* border: 2px solid red; */
+}
+.canvas-header
+{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.canvas-text
+{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.signup-btn
+{
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bolder;
+    flex-shrink: 0;
+}
+.signup-btn:hover
+{
+    background-color: #79a3e7;
+}
+.side-image
+{
+    height: 200px;
+    width:500px;
+    color: white;
+    background-color: #6D747D;
+    text-align: center;
+    /* border: 2px solid red; */
+}
