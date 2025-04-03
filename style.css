@@ -111,7 +111,7 @@ nav a
 
 .random-info
 {
-    height:400px;
+    height:600px;
     display: flex;
     flex-direction: column;
     box-shadow:1px 1px 6px gray;
@@ -160,4 +160,45 @@ nav a
     text-align: center;
     color: #6D747D;
     font-size: 15px;
+}
+
+.quote
+{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow:1px 1px 6px gray;
+}
+.quote-section
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quote-text
+{
+    font-size: 30px;
+    font-weight: lighter;
+    font-style:italic;
+    color: #1f2937;
+}
+.quote-author
+{
+    text-align: right;
+    font-weight: 900;
+}
+
+footer
+{
+    height: 100px;
+    background-color:#1f2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 12px;
 }
